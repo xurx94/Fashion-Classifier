@@ -49,12 +49,13 @@ python Model_Training.py
 
 ### 2. Run Saved Model on Test Dataset
 
-You can test the saved model the network on test dataset.
+To verify the model's overall accuracy against the entire 10,000-image test dataset, run:
 
 ```bash
 python evaluate.py
 
 ```
+*This script will load the saved .pth file, process the test batches without updating gradients, and output the final percentage score*
 
 ## 🛠️ Built With
 
