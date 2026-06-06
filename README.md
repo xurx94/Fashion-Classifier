@@ -19,15 +19,14 @@ This is a modular machine learning ecosystem separated into functional component
 
 1. **Clone the repository:**
    ```bash
-   git clone [https://github.com/your-username/Fashion-Classifier.git](https://github.com/your-username/PyTorch-Fashion-Classifier.git)
+   git clone [https://github.com/your-username/Fashion-Classifier.git](https://github.com/your-username/Fashion-Classifier.git)
    cd Fashion-Classifier
-```
+   ```
 
 2. **Install the required dependencies:**
-```bash
-pip install torch pandas numpy matplotlib seaborn pillow scikit-learn
-
-```
+   ```bash
+   pip install torch pandas numpy matplotlib seaborn pillow scikit-learn
+   ```
 
 3. **Download the Data (Required for Training):**
 To keep this repository lightweight, the raw CSV datasets are not included.
@@ -43,7 +42,6 @@ Once your data is placed in the root folder, initiate the training loop:
 
 ```bash
 python Model_Training.py
-
 ```
 *The script will automatically route to a CUDA GPU if available and generate a `Fashion_MNIST_TorchModel.pth` file.*
 
