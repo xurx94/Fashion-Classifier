@@ -4,9 +4,6 @@ from sklearn.model_selection import train_test_split
 df = pd.read_csv('fashion-mnist_train.csv')
 dfT = pd.read_csv('fashion-mnist_test.csv')
 
-df.dropna(inplace=True)
-dfT.dropna(inplace=True) 
-
 def preprocessedData():
     x_raw = df.iloc[:, 1:].to_numpy()
     y_raw = df.iloc[:, 0].to_numpy()

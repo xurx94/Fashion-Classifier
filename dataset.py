@@ -12,7 +12,7 @@ class CustomDataset(Dataset):
   def __len__(self):
     return len(self.features)
 
-def load_dataset(x,y,batch_sz,shuff=True):
+def load_dataset(x,y,batch_sz,shuff=True,drop_last=False):
   train_data = CustomDataset(x,y)
-  train_dataloader = DataLoader(train_data,batch_sz,shuff)
+  train_dataloader = DataLoader(train_data,batch_sz,shuffle=shuff,drop_last=drop_last)
   return train_dataloader
