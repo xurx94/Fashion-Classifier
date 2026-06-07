@@ -18,6 +18,8 @@ This is a modular machine learning ecosystem separated into functional component
 * `plotting.py`: A custom Matplotlib/Seaborn utility library for rendering image grids.
 * `evaluate.py`: The bulk-testing script for the ANN model. 
 * `evaluateCNN.py`: The bulk-testing script for the new CNN model. Loads the saved CNN weights and evaluates them against the entire 10,000-image test dataset.
+* `custom_photo_verificationCNN.py`: PIL Image preprocessing for custom photo classification.
+* `evaluateCNN.py`: classifying a custom image from gallary
 
 ## ⚙️ Installation & Setup
 
@@ -75,6 +77,17 @@ python evaluate.py
 ```
 
 *These scripts will load the saved `.pth` files, process the test batches without updating gradients, and output the final percentage score.*
+
+### 3. Classify custom images
+
+To verify the model's strength, use custom images to see the models accuracy with real world data.
+
+
+```bash
+python evaluateCustomPhoto.py
+
+```
+
 
 ## 🛠️ Built With
 
