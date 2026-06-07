@@ -54,7 +54,7 @@ def predict_gallery_photo(image_path, model_weight_path):
 
 if __name__ == '__main__':
 
-    MY_PHOTO = "genji.jpg" 
+    MY_PHOTO = "filename.jpg" 
     MY_SAVED_MODEL = "Fashion-mnistCNN.pth"
 
     predict_gallery_photo(MY_PHOTO, MY_SAVED_MODEL)
