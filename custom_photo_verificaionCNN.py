@@ -50,11 +50,3 @@ def predict_gallery_photo(image_path, model_weight_path):
     plt.title(f"Model Predicts: {predicted_label} \n Model's {confidence_percent:.1f}% Damn sure it's a {predicted_label}", fontsize=12)
     plt.axis('off')
     plt.show()
-
-
-if __name__ == '__main__':
-
-    MY_PHOTO = "filename.jpg" 
-    MY_SAVED_MODEL = "Fashion-mnistCNN.pth"
-
-    predict_gallery_photo(MY_PHOTO, MY_SAVED_MODEL)
