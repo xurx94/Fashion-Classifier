@@ -3,7 +3,7 @@
 An end-to-end Machine Learning pipeline built from scratch using PyTorch. This project trains and evaluates neural network architectures to classify clothing items from the Fashion MNIST dataset, showing the progression from a basic Artificial Neural Network (ANN) to a more advanced Convolutional Neural Network (CNN).
 
 **Final Test Accuracies:** 
-* **CNN Model:** 93.50% 🏆
+* **CNN Model:** 93.08% 🏆
 * **ANN Model:** 90.52%
 
 ## 🧠 Project Architecture
