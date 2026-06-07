@@ -4,10 +4,5 @@
 # Saved PyTorch Model Weights (Users will download from Releases)
 *.pth
 
-# Custom Test Images 
-*.jpg
-*.jpeg
-*.png
-
 # Python Cache files
 __pycache__/
